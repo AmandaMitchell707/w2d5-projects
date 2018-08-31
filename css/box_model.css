@@ -1,0 +1,27 @@
+div {
+  height: 200px;
+  width: 200px;
+  padding: 50px 50px 50px 50px;
+  border: 5px solid black;
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#container {
+  background-color: #ff4136;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+#third-div {
+  
+}
+
+p {
+  background-color: #7fdbff;
+  font-size: 40pt;
+  border: 5px solid black;
+
+}
