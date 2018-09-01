@@ -137,7 +137,8 @@ describe ResizingIntSet do
 
     it "should resize when enough items are inserted" do
       expect(set).to receive(:resize!).exactly(1).times
-      21.times { |i| set.insert(i)}
+      [9, 29, 49, 69, 89, 109, 129, 149, 169, 189, 209, 229, 249, 269, 289, 309, 329, 349, 369, 389, 409]
+.each { |i| set.insert(i) }
     end
 
     it "should move elements into the correct bucket after resizing" do
